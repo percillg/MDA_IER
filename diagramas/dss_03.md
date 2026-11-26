@@ -47,7 +47,7 @@ sequenceDiagram
     end
 ```
 
-Imagen generada: [dss_03.png](./dss_03.png)
+Imagen generada: [dss_03.png](./dss_03.png) · Justificación del cambio: [13-descripcion-cambio-dss-03.md](../13-descripcion-cambio-dss-03.md)
 
 ## Participantes
 

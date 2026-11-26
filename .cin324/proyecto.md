@@ -16,6 +16,7 @@
 | Casos de uso | `09-casos-uso.md` (CU-01 a CU-16), `diagramas/casos-de-uso.png`, `CU-02..05` | completo |
 | Diagramas de estado | `11-diagramas-estado.md`, `diagramas/est-01.puml`/`.png` (Oferta Académica) y `diagramas/est-02.puml`/`.png` (Recomendación de Asignatura) | completo (EST-01 y EST-02, este último del cambio de Evaluación 2) |
 | Diagramas de secuencia | `10-diagramas-secuencia.md`, `diagramas/dss_01.md` (DSS-01) y `diagramas/dss_03.md` (DSS-03, Mermaid) | completo (DSS-01, DSS-02 —solo imagen remota— y DSS-03 del cambio de Evaluación 2; falta `dss-01.puml`) |
+| Descripción/justificación del cambio | `13-descripcion-cambio-dss-03.md` | completo (motivo del DSS-03, trazabilidad y decisión de modelado) |
 | Requisitos y atributos de calidad | `03-requisitos.md`, `06-atributos-calidad.md`, `12-trazabilidad.md` | completo |
 
 ## Supuestos acordados (por elementos faltantes o dudosos)
