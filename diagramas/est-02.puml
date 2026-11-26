@@ -1,0 +1,29 @@
+@startuml
+title Diagrama de estados de la clase Recomendación de Asignatura (avance académico)
+
+skinparam state {
+  BackgroundColor #8BC34A
+  BorderColor #000000
+  ArrowColor #333333
+}
+skinparam ArrowFontSize 11
+skinparam defaultFontName Arial
+
+state "Propuesta (cursable)" as Propuesta
+state "Tentativa" as Tentativa
+state "Confirmada" as Confirmada
+state "Descartada" as Descartada
+
+[*] --> Propuesta : recomendar avance\n[asignatura cursable]\n/ registrar fechaPropuesta
+
+Propuesta --> Tentativa : marcar en la malla (CU-15)\n/ establecer estado tentativo
+
+Tentativa --> Tentativa : diferir desde el planificador\n/ conservar estado tentativo
+
+Tentativa --> Confirmada : confirmar desde el planificador (CU-06)\n/ registrar fechaConfirmacion\n/ validar carga (ver DSS-02)
+
+Tentativa --> Descartada : descartar recomendación\n/ retirar de la simulación
+
+Confirmada --> [*] : incorporada a la simulación activa
+Descartada --> [*]
+@enduml
