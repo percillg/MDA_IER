@@ -31,11 +31,10 @@ Variantes representadas:
 - **loop:** modificar horario repetidamente.
 
 
-## DSS-03 — Registro y confirmación de asignatura en estado tentativo (Evaluación 2)
-- Casos de uso: [CU-06](./09-casos-uso.md) y [CU-15](./09-casos-uso.md); extensión «Informar sobre asignaturas en estado tentativa» de CU-07; relacionado con CU-14, CU-16 y CU-17
-- Historias: [HU-05 CA5](./04-historias-usuario.md#hu-05) (asignaturas posibles para agilizar el avance), [HU-04](./04-historias-usuario.md#hu-04) (marca como tentativa en la malla) y [HU-02 CA4](./04-historias-usuario.md#hu-02) (confirmación desde el planificador)
+## DSS-03 — Registro y confirmación de asignatura en estado tentativo 
+- Casos de uso: [CU-06](./09-casos-uso.md) y [CU-15](./09-casos-uso.md); 
+- Historias: [HU-05 CA5](./04-historias-usuario.md#hu-05), [HU-04](./04-historias-usuario.md#hu-04), [HU-02 CA4](./04-historias-usuario.md#hu-02) 
 - Diagrama de estado relacionado: [EST-02 — Recomendación de Asignatura](./11-diagramas-estado.md#est-02--ciclo-de-vida-de-recomendación-de-asignatura-avance-académico), con transición `tentativo` → `confirmada`
-- Justificación del cambio: [13-descripcion-cambio-dss-03.md](./13-descripcion-cambio-dss-03.md)
 - Sistemas externos que participan: Ninguno
 
 ```mermaid
